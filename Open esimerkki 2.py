@@ -1,0 +1,13 @@
+kasky = input("Annetaanko lisää rahaa ('ei' lopettaa):")
+
+while kasky != "ei":
+    if kasky =="ryöstö":
+        print("Kaikki rahat ryöstetty!")
+        break
+        print("Annettu 1 kolikko lisää")
+        kasky = input("Annetaanko lisää rahaa ('ei' lopettaa):")
+    else:
+        print("hyvästi!")
+
+
+        print("Ohjelma loppuu....")
