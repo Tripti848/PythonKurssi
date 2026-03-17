@@ -1,0 +1,13 @@
+luku = int(input("Mikä on kokonaisluku: "))
+
+alkuluku = True
+
+for i in range(2, luku):
+    if luku % i == 0:
+        alkuluku = False
+        break
+
+if alkuluku:
+    print("Luku on alkuluku")
+else:
+    print("Luku ei ole alkuluku")
